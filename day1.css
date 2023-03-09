@@ -1,0 +1,50 @@
+.main{
+   margin: 0 auto;
+    width: 500px;
+    background-color: rgb(250, 238, 222);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 310px;
+   
+
+}
+.main-title p {
+    text-transform: uppercase;
+    color: red;
+    text-align: center;
+    font-size: 30px;
+}
+.main-input input{
+    display: block;
+    padding: 10px 120px 10px 20px;
+    background-color: rgb(250, 246, 240);
+    outline: none;
+    border: none;
+}
+
+.main-input input::placeholder {
+   text-transform: uppercase;
+
+}
+#password,#passworddk{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.main-button button{
+    padding: 7px 30px;
+    border-radius: 10px;
+    background-color: rgb(250, 206, 191);
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.main-button a {
+    text-decoration: none;
+    color: blue;
+    margin-left: 10px;
+}
+.main-button {
+    margin-bottom: 15px;
+}
